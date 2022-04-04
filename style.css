@@ -97,6 +97,22 @@ p{
     border-radius: 20px;
 }
 
+.accordion-button[aria-expanded="true"] {
+    color: whitesmoke !important;
+    background-color: rgb(207, 11, 11) !important;
+    box-shadow: none !important;
+  }
+.accordion-button[aria-expanded="false"] {
+    box-shadow: none !important;
+  }
+
+
+
+
+
+
+
+
 
 /* Footer */
 
