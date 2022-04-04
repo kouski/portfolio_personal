@@ -98,21 +98,13 @@ p{
 }
 
 .accordion-button[aria-expanded="true"] {
-    color: whitesmoke !important;
-    background-color: rgb(207, 11, 11) !important;
-    box-shadow: none !important;
+    color: whitesmoke;
+    background-color: rgb(207, 11, 11);
+    box-shadow: none;
   }
 .accordion-button[aria-expanded="false"] {
-    box-shadow: none !important;
+    box-shadow: none;
   }
-
-
-
-
-
-
-
-
 
 /* Footer */
 
