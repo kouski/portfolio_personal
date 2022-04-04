@@ -54,61 +54,89 @@
     <div class="container-fluid">
         <div id="projects" class="row d-flex">
             <h2 id="formacion" class="mt-5 display-4">Formación</h2>
-            <div class="col-4 d-flex">
-                <div class="flipCard">
-                    <div class="card" onclick="this.classList.toggle('flipped');">
-                        <div class="side front">Estudios</div>
-                        <div class="side back">Licenciado en Derecho<br />Master en Calidad de los Servicios</div>
+            <div class="col me-5 ms-5">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed display-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="font-size: 1.75rem;">
+                          Estudios
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body" style="font-size: 1.25rem;">
+                            <ul>
+                            <li>Licenciado en Derecho</li>
+                            <li>Master en Calidad de los Servicios</li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-            <div class="col-4 d-flex">
-                <div class="flipCard">
-                    <div class="card" onclick="this.classList.toggle('flipped');">
-                        <div class="side front">Cursos</div>
-                        <div class="side back">Html5<br />Css3<br />JavaScript<br />Bootstrap5<br />Angular<br />CCNA1
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" style="font-size: 1.75rem">
+                          Cursos
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body" style="font-size: 1.25rem;"> 
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>Bootstrap5</li>
+                                <li>CNNA</li>
+                            </ul>
                         </div>
+                      </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="col-4 d-flex">
-                <div class="flipCard">
-                    <div class="card" onclick="this.classList.toggle('flipped');">
-                        <div class="side front">Idiomas</div>
-                        <div class="side back">Inglés nivel alto<br />1 año estudiando en EEUU. High School Senior Year
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree" style="font-size: 1.75rem">
+                          Idiomas
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body" style="font-size: 1.25rem;">  
+                            <ul>
+                                <li>Inglés nivel alto</li>
+                                <li>Un año estudiando en EEUU. High School Senior Year.</li>
+                            </ul>
                         </div>
+                      </div>
                     </div>
-                </div>
+                  </div>
             </div>
-        </div>
-        <div class="d-flex mt-5">
-            <a id="cv" href="Plantilla_CV.pdf" class=" btn btn-outline-dark mx-auto px-2 py-2  fw-bold mb-5">Descargar Curriculum
-                Vitae</a>
-        </div>
     </div>
+
+    <div class="d-flex mt-5">
+        <a id="cv" href="Plantilla_CV.pdf" class=" btn btn-outline-dark mx-auto px-2 py-2  fw-bold mb-5">Descargar
+            Curriculum
+            Vitae</a>
+    </div>
+
+
 
     <div class="container-fluid">
         <div class="row">
             <div class="col ms-5 me-5">
                 <h2 class="mb-3 display-5">Habilidades</h2>
-                
-                    <h5>HTML5</h5>
-                    <div class="progress mt-3" style="height: 20px">
+
+                <h5>HTML5</h5>
+                <div class="progress mt-3" style="height: 20px">
                     <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 80%;"
-                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                    </div>
-                    <h5 class="mt-3">CSS3</h5>
-                    <div class="progress mt-3" style="height: 20px">
-                        <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 70%;"
-                            aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
-                    </div>
-                    <h5 class="mt-3">JavaScript</h5>
-                    <div class="progress  mt-3" style="height: 20px">
-                        <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 50%;"
-                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
-                    </div>
-                
+                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+                <h5 class="mt-3">CSS3</h5>
+                <div class="progress mt-3" style="height: 20px">
+                    <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 70%;"
+                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                </div>
+                <h5 class="mt-3">JavaScript</h5>
+                <div class="progress  mt-3" style="height: 20px">
+                    <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 50%;"
+                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                </div>
+
             </div>
         </div>
 
@@ -130,15 +158,25 @@
         <!-- Optional JavaScript; choose one of the two! -->
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"></script>
+            crossorigin="anonymous"></script> -->
 
         <!-- Option 2: Separate Popper and Bootstrap JS -->
-        <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
+        <script>
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl)
+            })
+
+        </script>
 </body>
 
 </html>
