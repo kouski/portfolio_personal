@@ -2,187 +2,339 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet" />
-    <title>Portfolio Óscar Rodríguez</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet" />
+  <title>Portfolio Óscar Gamarra</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-danger">
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top mb-3">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="./images/Logo_Oscar-removebg-preview.png" alt="" width="150" height="150">
-              </a>
-            <a class="navbar-brand text-light ms-3" href="#aboutme">Sobre mí</a>
-            <a class="navbar-brand text-light ms-3" href="#formacion">Formación</a>
-            <a class="navbar-brand text-light ms-3" href="#contacto">Contacto</a>
-            <div class="collapse navbar-collapse" id="navbarScroll"></div>
+        <a class="navbar-brand" href="#">
+            <p style="font-size: 1.4rem;">DISEÑADOR UX</p>
+        </a>
+        
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#acerca">Acerca de mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="card-hero bg-dark text-white border border-white">
+      <img src="./images/ux-ui-design.webp" class="card-img img-fluid" alt="..." style="height: 400px;">
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <h1 class="mb-5">Bienvenido a mi portfolio</h1>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col">
+        <div class="card-acerca border-0 bg-body">
+          <div class="card-body">
+            <h2 id="acerca" class="text-center">Acerca de mí</h2>
+            <p class="card-text">Me llamo Óscar Gamarra y llevo muchos años trabajando para conseguir la satisfacción de
+              los clientes
+              y desde hace un par de años como diseñador de experiencia de usuario. Para mí, "La simplicidad, la
+              eficacia y la accesibilidad
+              son las claves para obtener la satisfacción del usuario final."</p>
+
+          </div>
         </div>
-    </nav>
-    
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <h1 class="display-5 mb-3">Bienvenido a mi portfolio</h1>
-                <img src="/images/programador.jpeg" alt="dibujo-programador" class="img-fluid img-thumbnail mx-auto"
-                    style="width: 700px;" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Formación -->
+  <div class="container-fluid">
+    <div id="projects" class="row d-flex">
+      <h3 id="formacion" class="mt-5">Formación</h3>
+      <div class="col me-5 ms-5">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
+                style="font-size: 1.50rem;">
+                Estudios
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style="font-size: 1.25rem;">
+                <ul>
+                  <li>Licenciado en Derecho</li>
+                  <li>Master en Calidad de los Servicios y satisfacción de clientes.(900h)</li>
+                </ul>
+              </div>
             </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"
+                style="font-size: 1.50rem">
+                Cursos
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style="font-size: 1.25rem;">
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>Bootstrap5</li>
+                  <li>CNNA</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"
+                style="font-size: 1.50rem">
+                Idiomas
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style="font-size: 1.25rem;">
+                <ul>
+                  <li>Inglés nivel alto</li>
+                  <li>Un año estudiando en EEUU. High School Senior Year.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex mt-5">
+    <a id="cv" href="Plantilla_CV.pdf" class=" btn btn-outline-dark mx-auto px-4 py-2  fw-bold mb-5">Descargar
+      Curriculum
+      Vitae</a>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <h3 class="mb-3">Habilidades</h3>
+      <div class="col-md-4 col-sm-6">
+
+        <h5 class="mt-3 mb-3 text-center">HTML5</h5>
+        <div class="progress blue">
+          <span class="progress-left">
+            <span class="progress-bar"></span>
+          </span>
+          <span class="progress-right">
+            <span class="progress-bar"></span>
+          </span>
+          <div class="progress-value">85%</div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <h5 class="mt-3 mb-3 text-center">CSS3</h5>
+        <div class="progress yellow">
+          <span class="progress-left">
+            <span class="progress-bar"></span>
+          </span>
+          <span class="progress-right">
+            <span class="progress-bar"></span>
+          </span>
+          <div class="progress-value">75%</div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <h5 class="mt-3 mb-3 text-center">JavaScript</h5>
+        <div class="progress pink">
+          <span class="progress-left">
+            <span class="progress-bar"></span>
+          </span>
+          <span class="progress-right">
+            <span class="progress-bar"></span>
+          </span>
+          <div class="progress-value">50%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Proyectos -->
+  <div class="container mt-5">
+    <h2 id="proyectos" class="mt-5 mb-5">Proyectos</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="./images/termometro_jaen-720-25.jpeg" class="card-img-top img-fluid" alt="Reloj-termómetro en Jaén">
+          <div class="card-body">
+            <h5 class="card-title">Sonda temperatura</h5>
+            <p class="card-text lead">This is a longer card with supporting text below as a natural lead-in to
+              additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./images/portfolio582x1528437083075604181.jpeg" class="card-img-top img-fluid"
+            alt="pizarra con la palabra portfolio escrita">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio</h5>
+            <p class="card-text lead">This is a longer card with supporting text below as a natural lead-in to
+              additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./images/cine.jpg" class="card-img-top img-fluid" alt="cine y palomitas">
+          <div class="card-body">
+            <h5 class="card-title">App snacks en cine</h5>
+            <p class="card-text lead">This is a longer card with supporting text below as a natural lead-in to
+              additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <!-- Card -->
+        <div class="bg-image card shadow-1-strong"
+          style="background-image: url(./images/cine.jpg); background-repeat: no-repeat;background-size: cover;">
+          <div class="card-body text-white">
+            <h5 class="card-title" style="color: black ;">Card title</h5>
+            <p class="card-text lead">
+              Some quick example text to build on the card title and make up the bulk of the
+              card's content.
+            </p>
+            <a href="#!" class="btn btn-outline-light">Más información</a>
+          </div>
+        </div>
+        <!-- Card -->
+      </div>
+      <div class="col">
+        <!-- Card -->
+        <div class="img__wrap">
+          <img class="img__img" src="./images/portfolio582x1528437083075604181.jpeg" width="300px" height="300px" />
+          <div class="img__description_layer">
+            <p class="img__description">This image looks super neat.</p>
+          </div>
+        </div>
+        <!-- Card -->
+      </div>
+      <div class="col">
+        <!-- Card -->
+        <div class="container-text">
+          <img src="./images/cine.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+        </div>
+        <!-- Card -->
+      </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <h2 id="aboutme" class="mt-5 display-4">Sobre mí</h2>
-                <p class="lead ms-2 me-2">
-                    Me llamo Óscar Rodríguez Gamarra, soy empresario, y durante la
-                    pandemia descubrí que lo que realmente me gusta desde siempre, es el
-                    mundo de la informática. Desde entonces me estoy formando en
-                    desarrollo web y ciberseguridad principalmente, con el fin de
-                    redirigir mi carrera profesional.
-                </p>
-            </div>
-        </div>
+  </div>
+
+  <!-- Contact form -->
+  <div class="container py-3 min-vh-100 d-flex flex-column">
+
+    <div class="card-contact shadow rounded-3 my-auto">
+
+      <div class="card-header p-3 h4">
+        <h2 id="contacto" class="mb-2">Contacto</h2>
+      </div>
+      <div class="card-body p-4">
+        <form class="row">
+          <div class="form-group col-lg-4">
+            <label class="form-control-label" for="form-group-input">Nombre</label>
+            <input type="text" class="form-control" id="form-group-input-name" name="name">
+          </div>
+          <div class="form-group col-lg-4">
+            <label class="form-control-label" for="form-group-input">Email</label>
+            <input type="text" class="form-control" id="form-group-input-email" name="email">
+          </div>
+          <div class="form-group col-lg-12">
+            <label class="form-control-label" for="form-group-input">Comentarios</label>
+            <textarea class="form-control" id="form-group-input" name="notes" rows="6"></textarea>
+          </div>
+          <div class="form-group col-lg-12">
+            <button id="enviar" class="btn btn-danger float-end mt-2">Enviar</button>
+          </div>
+        </form>
+      </div>
     </div>
+  </div>
+  <footer class="container-fluid d-flex bg-light mt-5">
 
-    <div class="container-fluid">
-        <div id="projects" class="row d-flex">
-            <h2 id="formacion" class="mt-5 display-4">Formación</h2>
-            <div class="col me-5 ms-5">
-                <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed display-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="font-size: 1.75rem;">
-                          Estudios
-                        </button>
-                      </h2>
-                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body" style="font-size: 1.25rem;">
-                            <ul>
-                            <li>Licenciado en Derecho</li>
-                            <li>Master en Calidad de los Servicios y satisfacción de clientes.(900h)</li>
-                        </ul>
-                    </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" style="font-size: 1.75rem">
-                          Cursos
-                        </button>
-                      </h2>
-                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body" style="font-size: 1.25rem;"> 
-                            <ul>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>JavaScript</li>
-                                <li>Bootstrap5</li>
-                                <li>CNNA</li>
-                            </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree" style="font-size: 1.75rem">
-                          Idiomas
-                        </button>
-                      </h2>
-                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body" style="font-size: 1.25rem;">  
-                            <ul>
-                                <li>Inglés nivel alto</li>
-                                <li>Un año estudiando en EEUU. High School Senior Year.</li>
-                            </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-    </div>
-
-    <div class="d-flex mt-5">
-        <a id="cv" href="Plantilla_CV.pdf" class=" btn btn-outline-dark mx-auto px-2 py-2  fw-bold mb-5">Descargar
-            Curriculum
-            Vitae</a>
-    </div>
+    <ul class="logo_list d-flex mb-4 mt-3">
+      <li class="ms-3 me-3 list-unstyled">
+        <a href="https://github.com" id="profile-link" target="_blank"><img id="github"
+            src="images/GitHub-Mark-32px.png" alt="Github mark" /></a>
+      </li>
+      <li class="ms-3 list-unstyled">
+        <a href="mailto:orgamarra@gmail.com"><img id="email" src="images/email.png" alt="logo email" /></a>
+      </li>
 
 
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col ms-5 me-5">
-                <h2 class="mb-3 display-5">Habilidades</h2>
-
-                <h5>HTML5</h5>
-                <div class="progress mt-3" style="height: 20px">
-                    <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 80%;"
-                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                </div>
-                <h5 class="mt-3">CSS3</h5>
-                <div class="progress mt-3" style="height: 20px">
-                    <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 70%;"
-                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
-                </div>
-                <h5 class="mt-3">JavaScript</h5>
-                <div class="progress  mt-3" style="height: 20px">
-                    <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 50%;"
-                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
-                </div>
-
-            </div>
-            
-        </div>
-
-        <footer class="container-fluid d-flex bg-light mt-5">
-            <h2 id="contacto" class="display-5 mb-2">Contacto</h2>
-            <ul class="logo_list d-flex mb-4">
-                <li class="ms-3 me-3 list-unstyled">
-                    <a href="https://github.com" id="profile-link" target="_blank"><img id="github"
-                            src="images/GitHub-Mark-32px.png" alt="Github mark" /></a>
-                </li>
-                <li class="ms-3 list-unstyled">
-                    <a href="mailto:orgamarra@gmail.com"><img id="email" src="images/email.png" /></a>
-                </li>
-                
-
-            </ul>
-        </footer>
+    </ul>
+  </footer>
 
 
-        <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Optional JavaScript; choose one of the two! -->
 
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script> -->
 
-        <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
 
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-            crossorigin="anonymous"></script>
-        <script>
-            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-                return new bootstrap.Popover(popoverTriggerEl)
-            })
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })
 
-        </script>
+  </script>
 </body>
 
 </html>
