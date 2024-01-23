@@ -339,6 +339,7 @@ footer{
 
   #enviar:hover {
       background: black;
+      border: 2px solid #FF0000;
   }
 
   
