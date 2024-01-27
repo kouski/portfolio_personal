@@ -425,3 +425,12 @@ footer{
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  .link-proyecto{
+    text-decoration: none;
+    color: #242a35;
+  }
+
+  .link-proyecto:hover{
+    color: #242a35;
+  }
