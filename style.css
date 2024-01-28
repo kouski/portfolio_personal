@@ -324,9 +324,11 @@ footer{
     border-radius: 0;
     border: 0;
     margin-bottom: 1.5em;
+    filter: opacity(.5);
   }
   .card:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
+    filter: opacity(1);
     cursor: pointer;
   }
 
@@ -434,3 +436,5 @@ footer{
   .link-proyecto:hover{
     color: #242a35;
   }
+
+  
