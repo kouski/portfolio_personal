@@ -327,7 +327,7 @@ footer{
     filter: opacity(.5);
   }
   .card:hover {
-    transform: scale(0.9);
+    transform: scale(1.1);
     filter: opacity(1);
     cursor: pointer;
   }
