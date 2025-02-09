@@ -192,166 +192,74 @@
   </section>
   <hr>
   <!-- Proyectos -->
-  <div class="container mt-5">
-    <h2 id="proyectos" class="mt-5 mb-5">Proyectos</h2>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+  <!-- Botones de filtrado -->
+<div class="container text-center mt-4">
+  <button class="btn btn-danger filtro-btn" data-filtro="todos">Todos</button>
+  <button class="btn btn-secondary filtro-btn" data-filtro="React-Angular">React-Angular</button>
+  <button class="btn btn-secondary filtro-btn" data-filtro="WordPress">WordPress</button>
+  <button class="btn btn-secondary filtro-btn" data-filtro="VanillaJS">Vanilla JS</button>
+  <button class="btn btn-secondary filtro-btn" data-filtro="UX">UX</button>
+</div>
 
-      <div class="col">
-        <article class="card h-100">
-          <!-- Enlace que envuelve toda la tarjeta -->
-          <a href="https://calm-meringue-93fa32.netlify.app/castellano.html" target="_blank" class="link-proyecto">
-            <!-- Contenido de la tarjeta -->
-            <img src="./images/valluatravel.png" class="card-img-top img-fluid"
-              alt="Imagen de formulario con una imagen de ebook de cocina.">
-
-            <div class="card-body">
-              <h3 class="card-title fs-4">Web de inscripción</h3>
-              <p class="card-text lead">Desarrollo personalizado desde cero siguiendo diseño del cliente, de páginas web de inscripción, multilenguaje.Html, Bootstrap5 y JavaScript</p>
-            </div>
-          </a>
-        </article>
-
-      </div>
-      <div class="col">
-        <article class="card h-100">
-          <!-- Enlace que envuelve toda la tarjeta -->
-          <a href="https://proyectonaturquinoa.netlify.app/" target="_blank" class="link-proyecto">
-            <!-- Contenido de la tarjeta -->
-            <img src="./images/Web_naturquinoa.webp" class="card-img-top img-fluid"
-              alt="Imagen de formulario con una imagen de ebook de cocina.">
-
-            <div class="card-body">
-              <h3 class="card-title fs-4">Landing page Naturquinoa</h3>
-              <p class="card-text lead">Desarrollo y diseño de una landing page para la Empresa Naturquinoa, utilizando
-                Angular, TypeScript, Bootstrap5 y modo oscuro.</p>
-            </div>
-          </a>
-        </article>
-
-      </div>
-      <div class="col">
-        <article class="card h-100">
-          <!-- Enlace que envuelve toda la tarjeta -->
-          <a href="https://www.saludyeducacionintegrales.org/" target="_blank" class="link-proyecto">
-            <!-- Contenido de la tarjeta -->
-            <img src="./images/fundacion.png" class="card-img-top img-fluid"
-              alt="Imagen de formulario con una imagen de ebook de cocina.">
-
-            <div class="card-body">
-              <h3 class="card-title fs-4">Web Fundación SYEI</h3>
-              <p class="card-text lead">Desarrollo y diseño de web para la Fundación SYEI, utilizando
-                Wordpress con Elementor. Mantenimiento y actualización anual</p>
-            </div>
-          </a>
-        </article>
-
-      </div>
-      <div class="col">
-
-        <article class="card h-100">
-          <a href="https://gamarrawebdesign.com" target="_blank" class="link-proyecto">
-            <img src="./images/Gamarraweb.png" class="card-img-top img-fluid"
-              alt="Imagen de formulario con una imagen de ebook de cocina">
-
-            <div class="card-body">
-              <h3 class="card-title fs-4">Web de diseño y desarrollo web</h3>
-              <p class="card-text lead">Desarrollo y diseño de página web para Empresa de desarrollo y diseño web,usando Wordpress y Elementor pro.</p>
-            </div>
-          </a>
-        </article>
-      </div>
-      <div class="col">
-
-        <article class="card h-100">
-          <a href="https://molinodelahoz.netlify.app/" target="_blank" class="link-proyecto">
-            <img src="./images/molino_web.webp"
-              class="card-img-top img-fluid" alt="Imagen de formulario con una imagen de ebook de cocina">
-
+<!-- Contenedor de proyectos -->
+<div class="container mt-5">
+  <h2 id="proyectos" class="mt-5 mb-5">Proyectos</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4" id="contenedor-proyectos">
+    
+    <!-- Proyecto 1 -->
+    <div class="col proyecto" data-categoria="WordPress">
+      <article class="card h-100">
+        <a href="https://www.saludyeducacionintegrales.org/" target="_blank" class="link-proyecto">
+          <img src="./images/fundacion.png" class="card-img-top img-fluid" alt="Imagen de web Fundación SYEI">
           <div class="card-body">
-            <h3 class="card-title fs-4">Web Asociación vecinos</h3>
-            <p class="card-text lead">Desarrollo y diseño de web para la urbanización Molino de la Hoz, usando HTML5, CSS3,Bootstrap y JavaScript</p>
+            <h3 class="card-title fs-4">Web Fundación SYEI</h3>
+            <p class="card-text lead">Desarrollo en WordPress con Elementor.</p>
           </div>
         </a>
-        </article>
-      </div>
-      <div class="col">
+      </article>
+    </div>
 
-        <article class="card h-100">
-          <a href="https://veterinariareact71.netlify.app/" target="_blank" class="link-proyecto">
-            <img src="./images/veterinaria.webp"
-              class="card-img-top img-fluid" alt="Imagen de formulario con una imagen de ebook de cocina">
-
+    <!-- Proyecto 2 -->
+    <div class="col proyecto" data-categoria="React-Angular">
+      <article class="card h-100">
+        <a href="https://proyectonaturquinoa.netlify.app/" target="_blank" class="link-proyecto">
+          <img src="./images/Web_naturquinoa.webp" class="card-img-top img-fluid" alt="Imagen de landing page">
           <div class="card-body">
-            <h3 class="card-title fs-4">Aplicación seguimiento pacientes</h3>
-            <p class="card-text lead">Desarrollo y diseño de aplicación para seguimiento de pacientes de clínica
-              veterinaria, usando React y Vite, y en css Bootstrap5</p>
+            <h3 class="card-title fs-4">Landing page Naturquinoa</h3>
+            <p class="card-text lead">Hecha con Angular, TypeScript y Bootstrap.</p>
           </div>
         </a>
-        </article>
-      </div>
-      <div class="col">
+      </article>
+    </div>
 
-        <article class="card h-100">
-          <a href="https://cardgame71.netlify.app/" target="_blank" class="link-proyecto">
-            <img src="./images/juego_cartas.webp"
-              class="card-img-top img-fluid" alt="Imagen negra y dorada de juego de cartas">
-
+    <!-- Proyecto 3 -->
+    <div class="col proyecto" data-categoria="VanillaJS">
+      <article class="card h-100">
+        <a href="https://cardgame71.netlify.app/" target="_blank" class="link-proyecto">
+          <img src="./images/juego_cartas.webp" class="card-img-top img-fluid" alt="Juego de cartas">
           <div class="card-body">
             <h3 class="card-title fs-4">Juego de cartas</h3>
-            <p class="card-text lead">Desarrollo y diseño de un juego de cartas, tipo carta más alta, usando HTML5, CSS3 y JavaScript.
-            </p>
+            <p class="card-text lead">Desarrollado con HTML, CSS y JavaScript puro.</p>
           </div>
         </a>
-        </article>
-      </div>
-      <div class="col">
+      </article>
+    </div>
 
-        <article class="card h-100">
-          <a href="bricolaje.pdf" target="_blank" class="link-proyecto">
-            <img src="./images/herramientas-de-bricolaje-848x477x80xX.webp"
-              class="card-img-top img-fluid" alt="Foto herramientas bricolaje">
-
-          <div class="card-body">
-            <h3 class="card-title fs-4">Web bricolaje</h3>
-            <p class="card-text lead">Diseño de una web dedicada a proyectos de Bricolaje, usando Figma.</p>
-          </div>
-        </a>
-        </article>
-      </div>
-      <div class="col">
-        <article class="card h-100">
-          <a href="comidasana.pdf" target="_blank" class="link-proyecto">
-            <img src="./images/comida_sana.webp" class="card-img-top img-fluid"
-              alt="foto pechuga de pollo con ensalada">
-
+    <!-- Proyecto 4 -->
+    <div class="col proyecto" data-categoria="UX">
+      <article class="card h-100">
+        <a href="comidasana.pdf" target="_blank" class="link-proyecto">
+          <img src="./images/comida_sana.webp" class="card-img-top img-fluid" alt="Diseño comida sana">
           <div class="card-body">
             <h3 class="card-title fs-4">Comida sana</h3>
-            <p class="card-text lead">Diseño de una web de comida sana, diseñada en distintos tamaños de pantalla, usando Figma.</p>
+            <p class="card-text lead">Diseño UX/UI realizado en Figma.</p>
           </div>
         </a>
-        </article>
-      </div>
-      <div class="col">
-        <article class="card h-100">
-          <a href="appcine.pdf" target="_blank" class="link-proyecto">
-            <img id="cine" src="./images/cine.webp" class="card-img-top img-fluid"
-              alt="cine y palomitas">
-
-          <div class="card-body">
-            <h3 class="card-title fs-4">App snacks en cine</h3>
-            <p class="card-text lead">Se diseña una aplicación para poder pedir comida desde el cine,usando Figma.</p>
-          </div>
-          </a>
-        </article>
-      </div>
-      <div class="col">
-
-
-        <!-- Card -->
-      </div>
+      </article>
     </div>
 
   </div>
+</div>
 
   <!-- Contact form -->
   <div class="container py-3 min-vh-100 d-flex flex-column">
@@ -424,6 +332,29 @@
     var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
       return new bootstrap.Popover(popoverTriggerEl)
     })
+
+    document.addEventListener("DOMContentLoaded", function () {
+    const botonesFiltro = document.querySelectorAll(".filtro-btn");
+    const proyectos = document.querySelectorAll(".proyecto");
+
+    botonesFiltro.forEach((boton) => {
+      boton.addEventListener("click", function () {
+        const filtro = this.getAttribute("data-filtro");
+
+        proyectos.forEach((proyecto) => {
+          if (filtro === "todos" || proyecto.getAttribute("data-categoria") === filtro) {
+            proyecto.style.display = "block"; // Muestra el proyecto
+          } else {
+            proyecto.style.display = "none"; // Oculta el proyecto
+          }
+        });
+
+        // Resalta el botón seleccionado
+        botonesFiltro.forEach((b) => b.classList.remove("btn-primary"));
+        this.classList.add("btn-primary");
+      });
+    });
+  });
 
   </script>
 </body>
