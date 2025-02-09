@@ -4,7 +4,7 @@ const proyectos = [
       descripcion: "Desarrollo personalizado desde cero siguiendo diseño del cliente, de páginas web de inscripción, multilenguaje. Html, Bootstrap5 y JavaScript",
       imagen: "/images/valluatravel.png",
       enlace: "https://calm-meringue-93fa32.netlify.app/castellano.html",
-      categoria: "Vanilla JavaScript",
+      categoria: "VanillaJS",
     },
     
     {
@@ -61,14 +61,14 @@ const proyectos = [
       descripcion: "Desarrollo y diseño de web para la urbanización Molino de la Hoz, usando HTML5, CSS3,Bootstrap y JavaScript",
       imagen: "/images/molino_web.webp",
       enlace: "https://molinodelahoz.netlify.app/",
-      categoria: "Vanilla JavaScript",
+      categoria: "VanillaJS",
     },
     {
       titulo: "Juego de Cartas",
       descripcion: "Desarrollo y diseño de un juego de cartas, tipo carta más alta, usando HTML5, CSS3 y JavaScript",
       imagen: "/images/juego_cartas.webp",
       enlace: "https://cardgame71.netlify.app/",
-      categoria: "Vanilla JavaScript",
+      categoria: "VanillaJS",
     },
     {
       titulo: "Web bricolaje",
