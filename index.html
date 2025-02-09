@@ -362,23 +362,29 @@
         <h2 id="contacto" class="mb-2">Contacto</h2>
       </div>
       <div class="card-body p-4">
-        <form name="formulario-contacto" class="row" netlify>
-          <div class="form-group col-lg-4">
-            <label class="form-control-label" for="form-group-input-name">Nombre</label>
-            <input type="text" class="form-control" id="form-group-input-name" name="name" placeholder="Nombre y Apellidos" required>
-          </div>
-          <div class="form-group col-lg-4">
-            <label class="form-control-label" for="form-group-input-email">Email</label>
-            <input type="email" class="form-control" id="form-group-input-email" name="email" placeholder="xxxx@xxx.xx" required>
-          </div>
-          <div class="form-group col-lg-12">
-            <label class="form-control-label" for="form-group-input">Comentarios</label>
-            <textarea class="form-control" id="form-group-input" name="notes" rows="6" placeholder="Incluir comentario..." required></textarea>
-          </div>
-          <div class="form-group col-lg-12">
-            <button id="enviar" type="submit" class="btn btn-danger float-end mt-2">Enviar Formulario</button>
-          </div>
-        </form>
+        <form name="formulario-contacto" class="row" method="POST" data-netlify="true">
+  <!-- ✅ Campo oculto para que Netlify procese el formulario -->
+  <input type="hidden" name="form-name" value="formulario-contacto">
+  
+  <div class="form-group col-lg-4">
+    <label class="form-control-label" for="form-group-input-name">Nombre</label>
+    <input type="text" class="form-control" id="form-group-input-name" name="name" placeholder="Nombre y Apellidos" required>
+  </div>
+  
+  <div class="form-group col-lg-4">
+    <label class="form-control-label" for="form-group-input-email">Email</label>
+    <input type="email" class="form-control" id="form-group-input-email" name="email" placeholder="xxxx@xxx.xx" required>
+  </div>
+  
+  <div class="form-group col-lg-12">
+    <label class="form-control-label" for="form-group-input">Comentarios</label>
+    <textarea class="form-control" id="form-group-input" name="notes" rows="6" placeholder="Incluir comentario..." required></textarea>
+  </div>
+  
+  <div class="form-group col-lg-12">
+    <button id="enviar" type="submit" class="btn btn-danger float-end mt-2">Enviar Formulario</button>
+  </div>
+</form>
       </div>
     </div>
   </div>
