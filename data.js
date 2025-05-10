@@ -71,6 +71,13 @@ const proyectos = [
       categoria: "VanillaJS",
     },
     {
+      titulo: "Rediseño web",
+      descripcion: "Rediseño web para mejorar la experiencia del usuario.",
+      imagen: "/images/ux_experience.jpg",
+      enlace: "/Informe_Rediseño_FundacionSYEI.pdf",
+      categoria: "UX",
+    },
+    {
       titulo: "Web bricolaje",
       descripcion: "Diseño de una web dedicada a proyectos de Bricolaje, usando Figma.",
       imagen: "/images/herramientas-de-bricolaje-848x477x80xX.webp",
@@ -91,4 +98,5 @@ const proyectos = [
       enlace: "/comidasana.pdf",
       categoria: "UX",
     },
+    
   ];
