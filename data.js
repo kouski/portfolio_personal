@@ -39,7 +39,7 @@ const proyectos = [
       titulo: "Web de diseño y desarrollo web",
       descripcion: "Desarrollo y diseño de página web para Empresa de desarrollo y diseño web, usando Wordpress y Elementor pro.",
       imagen: "/images/Gamarraweb.png",
-      enlace: "http://gamarra-web-design.local/",
+      enlace: "https://gamarrawebdesign.wuaze.com/",
       categoria: "WordPress",
     },
     {
