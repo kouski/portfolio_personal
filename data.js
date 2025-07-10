@@ -98,5 +98,12 @@ const proyectos = [
       enlace: "/comidasana.pdf",
       categoria: "UX",
     },
+    {
+      titulo: "Chatbot IA Generativa",
+      descripcion: "Creación de un Chatbot, que da información sobre mí.Al que se puede acceder en la esquina inferior derecha de esta web",
+      imagen: "/images/chatbot.png",
+      enlace: "https://portfolio-oscar-gamarra.netlify.app/",
+      categoria: "IA",
+    },
     
   ];
