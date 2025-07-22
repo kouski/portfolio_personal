@@ -105,5 +105,12 @@ const proyectos = [
       enlace: "https://portfolio-oscar-gamarra.netlify.app/",
       categoria: "IA",
     },
+    {
+      titulo: "Automatización gastos Personal",
+      descripcion: "Creación de un flujo de automatización de gastos, usando N8N,Ollama,google sheets...",
+      imagen: "/images/workflow_n8n.png",
+      enlace: "/documentacion_automatizacion_gastos.pdf",
+      categoria: "IA",
+    },
     
   ];
