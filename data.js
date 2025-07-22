@@ -109,7 +109,7 @@ const proyectos = [
       titulo: "Automatización gastos Personal",
       descripcion: "Creación de un flujo de automatización de gastos, usando N8N,Ollama,google sheets...",
       imagen: "/images/workflow_gastos.png",
-      enlace: "/Doc_gastos.pdf",
+      enlace: "/doc_gastos.pdf",
       categoria: "IA",
     },
     
