@@ -114,7 +114,7 @@ const proyectos = [
     },
     {
       titulo: "Creación Agente IA para consultar envíos de paquetes",
-      descripcion: "Creación de un flujo de automatización que recibe mediante un chat peticiones de clientes para saber el estado de sus envíos, usando AgenteIA,N8N,Ollama,google sheets...",
+      descripcion: "Creación de un flujo de automatización que recibe mediante un chat peticiones de clientes para saber el estado de sus envíos,usando AgenteIA,N8N,Ollama,google sheets...",
       imagen: "/images/Flujo_envios.png",
       enlace: "/Doc_agenteia_paqueteria.pdf",
       categoria: "IA",
