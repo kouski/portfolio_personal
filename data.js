@@ -102,7 +102,7 @@ const proyectos = [
       titulo: "Chatbot IA Generativa",
       descripcion: "Creación de un Chatbot, que da información sobre mí.Usando Zapier",
       imagen: "/images/chatbot.png",
-      enlace: "https://portfolio-oscar-gamarra.netlify.app/",
+      enlace: "/images/chatbot_oscar.png",
       categoria: "IA",
     },
     {
