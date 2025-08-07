@@ -100,7 +100,7 @@ const proyectos = [
     },
     {
       titulo: "Chatbot IA Generativa",
-      descripcion: "Creación de un Chatbot, que da información sobre mí.Al que se puede acceder en la esquina inferior derecha de esta web",
+      descripcion: "Creación de un Chatbot, que da información sobre mí.Usando Zapier",
       imagen: "/images/chatbot.png",
       enlace: "https://portfolio-oscar-gamarra.netlify.app/",
       categoria: "IA",
@@ -114,7 +114,7 @@ const proyectos = [
     },
     {
       titulo: "Creación Agente IA para consultar envíos de paquetes",
-      descripcion: "Creación de un flujo de automatización que recibe mediante un chat peticiones de clientes para saber el estado de sus envíos, usando N8N,Ollama,google sheets...",
+      descripcion: "Creación de un flujo de automatización que recibe mediante un chat peticiones de clientes para saber el estado de sus envíos, usando AgenteIA,N8N,Ollama,google sheets...",
       imagen: "/images/Flujo_envios.png",
       enlace: "/Doc_agenteia_paqueteria.pdf",
       categoria: "IA",
