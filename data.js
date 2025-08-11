@@ -119,5 +119,12 @@ const proyectos = [
       enlace: "/Doc_agenteia_paqueteria.pdf",
       categoria: "IA",
     },
+    {
+      titulo: "Creación Asistente Personal para Empresas",
+      descripcion: "Creación de un flujo de automatización, usando Agente IA que recibe mediante un chat peticiones de la base de clientes de la Empresa y se puede solicitar datos del cliente y/o agendar reunión y/o mandar un email al cliente ,en n8n  usando AgenteIA,Google Gemini Chat,Google Calendar,Google sheets...",
+      imagen: "/images/Asistente_Personal.png",
+      enlace: "/Documentación del Asistente Personal Automatizado.pdf",
+      categoria: "IA",
+    },
     
   ];
