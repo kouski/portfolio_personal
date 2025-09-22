@@ -98,13 +98,7 @@ const proyectos = [
       enlace: "/comidasana.pdf",
       categoria: "UX",
     },
-    {
-      titulo: "Chatbot IA Generativa",
-      descripcion: "Creación de un Chatbot, que da información sobre mí.Usando Zapier",
-      imagen: "/images/chatbot.png",
-      enlace: "/images/chatbot_oscar.png",
-      categoria: "IA",
-    },
+    
     {
       titulo: "Automatización gastos Personal",
       descripcion: "Creación de un flujo de automatización de gastos, usando N8N,Ollama,google sheets...",
@@ -124,6 +118,20 @@ const proyectos = [
       descripcion: "Creación de un flujo de automatización, usando Agente IA que recibe mediante un chat peticiones de la base de clientes de la Empresa y se puede solicitar datos del cliente y/o agendar reunión y/o mandar un email al cliente ,en n8n  usando AgenteIA,Google Gemini Chat,Google Calendar,Google sheets...",
       imagen: "/images/Asistente_Personal.png",
       enlace: "/Documentación del Asistente Personal Automatizado.pdf",
+      categoria: "IA",
+    },
+    {
+      titulo: "Procesamiento automatizado de curriculums(c.v)",
+      descripcion: "Creación de un flujo de automatización, que usando un formulario extrae la información necesaria del solicitante y su cv y lo guarda en una tabla de Airtable.",
+      imagen: "/images/cv.png",
+      enlace: "/Documentación del Sistema de Procesamiento Automatizado de CVs.pdf",
+      categoria: "IA",
+    },
+    {
+      titulo: "Agente IA con voz",
+      descripcion: "Creación de un Agente IA que interactua con el usuario de la web, que responde por chat y con voz para facilitar el acceso a todos,dando información sobre mí, usando ElevenLabs. Se puede probar en la esquina inferior derecha de esta web",
+      imagen: "/images/Agente_voz.png",
+      enlace: "https://portfolio-oscar-gamarra.netlify.app/",
       categoria: "IA",
     },
     
