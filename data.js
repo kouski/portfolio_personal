@@ -1,4 +1,47 @@
 const proyectos = [
+
+  {
+      titulo: "Automatización gastos Personal",
+      descripcion: "Creación de un flujo de automatización de gastos, usando N8N,Ollama,google sheets...",
+      imagen: "/images/workflow_gastos.png",
+      enlace: "/doc_gastos.pdf",
+      categoria: "IA",
+    },
+    {
+      titulo: "Creación Agente IA para consultar envíos de paquetes",
+      descripcion: "Creación de un flujo de automatización que recibe mediante un chat peticiones de clientes para saber el estado de sus envíos,usando AgenteIA,N8N,Ollama,google sheets...",
+      imagen: "/images/Flujo_envios.png",
+      enlace: "/Doc_agenteia_paqueteria.pdf",
+      categoria: "IA",
+    },
+    {
+      titulo: "Creación Asistente Personal para Empresas",
+      descripcion: "Creación de un flujo de automatización, usando Agente IA que recibe mediante un chat peticiones de la base de clientes de la Empresa y se puede solicitar datos del cliente y/o agendar reunión y/o mandar un email al cliente ,en n8n  usando AgenteIA,Google Gemini Chat,Google Calendar,Google sheets...",
+      imagen: "/images/Asistente_Personal.png",
+      enlace: "/Documentación del Asistente Personal Automatizado.pdf",
+      categoria: "IA",
+    },
+    {
+      titulo: "Procesamiento automatizado de curriculums(c.v)",
+      descripcion: "Creación de un flujo de automatización, que usando un formulario extrae la información necesaria del solicitante y su cv y lo guarda en una tabla de Airtable.",
+      imagen: "/images/cv.png",
+      enlace: "/Documentación del Sistema de Procesamiento Automatizado de CVs.pdf",
+      categoria: "IA",
+    },
+    {
+      titulo: "Agente IA con voz",
+      descripcion: "Creación de un Agente IA que interactua con el usuario de la web, que responde por chat y con voz para facilitar el acceso a todos,dando información sobre mí, usando ElevenLabs. Se puede probar en la esquina inferior derecha de esta web",
+      imagen: "/images/Agente_voz.png",
+      enlace: "https://portfolio-oscar-gamarra.netlify.app/",
+      categoria: "IA",
+    },
+    {
+      titulo: "Automatizador de post en redes sociales",
+      descripcion: "Creación de un workflow que automatiza la creación y publicación de post en redes sociales, usando Make,OpenAi y Airtable",
+      imagen: "/images/Redes sociales.png",
+      enlace: "/Documentación del Sistema de Automatización de Publicaciones en LinkedIn.pdf",
+      categoria: "IA",
+    },
     {
       titulo: "Web de inscripción",
       descripcion: "Desarrollo personalizado desde cero siguiendo diseño del cliente, de páginas web de inscripción, multilenguaje. Html, Bootstrap5 y JavaScript",
@@ -97,49 +140,8 @@ const proyectos = [
       imagen: "/images/comida_sana.webp",
       enlace: "/comidasana.pdf",
       categoria: "UX",
-    },
+    }
     
-    {
-      titulo: "Automatización gastos Personal",
-      descripcion: "Creación de un flujo de automatización de gastos, usando N8N,Ollama,google sheets...",
-      imagen: "/images/workflow_gastos.png",
-      enlace: "/doc_gastos.pdf",
-      categoria: "IA",
-    },
-    {
-      titulo: "Creación Agente IA para consultar envíos de paquetes",
-      descripcion: "Creación de un flujo de automatización que recibe mediante un chat peticiones de clientes para saber el estado de sus envíos,usando AgenteIA,N8N,Ollama,google sheets...",
-      imagen: "/images/Flujo_envios.png",
-      enlace: "/Doc_agenteia_paqueteria.pdf",
-      categoria: "IA",
-    },
-    {
-      titulo: "Creación Asistente Personal para Empresas",
-      descripcion: "Creación de un flujo de automatización, usando Agente IA que recibe mediante un chat peticiones de la base de clientes de la Empresa y se puede solicitar datos del cliente y/o agendar reunión y/o mandar un email al cliente ,en n8n  usando AgenteIA,Google Gemini Chat,Google Calendar,Google sheets...",
-      imagen: "/images/Asistente_Personal.png",
-      enlace: "/Documentación del Asistente Personal Automatizado.pdf",
-      categoria: "IA",
-    },
-    {
-      titulo: "Procesamiento automatizado de curriculums(c.v)",
-      descripcion: "Creación de un flujo de automatización, que usando un formulario extrae la información necesaria del solicitante y su cv y lo guarda en una tabla de Airtable.",
-      imagen: "/images/cv.png",
-      enlace: "/Documentación del Sistema de Procesamiento Automatizado de CVs.pdf",
-      categoria: "IA",
-    },
-    {
-      titulo: "Agente IA con voz",
-      descripcion: "Creación de un Agente IA que interactua con el usuario de la web, que responde por chat y con voz para facilitar el acceso a todos,dando información sobre mí, usando ElevenLabs. Se puede probar en la esquina inferior derecha de esta web",
-      imagen: "/images/Agente_voz.png",
-      enlace: "https://portfolio-oscar-gamarra.netlify.app/",
-      categoria: "IA",
-    },
-    {
-      titulo: "Automatizador de post en redes sociales",
-      descripcion: "Creación de un workflow que automatiza la creación y publicación de post en redes sociales, usando Make,OpenAi y Airtable",
-      imagen: "/images/Redes sociales.png",
-      enlace: "/Documentación del Sistema de Automatización de Publicaciones en LinkedIn.pdf",
-      categoria: "IA",
-    },
+    
     
   ];
