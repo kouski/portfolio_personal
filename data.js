@@ -134,5 +134,12 @@ const proyectos = [
       enlace: "https://portfolio-oscar-gamarra.netlify.app/",
       categoria: "IA",
     },
+    {
+      titulo: "Automatizador de post en redes sociales",
+      descripcion: "Creación de un workflow que automatiza la creación y publicación de post en redes sociales, usando Make,OpenAi y Airtable",
+      imagen: "/images/Redes sociales.png",
+      enlace: "/Documentación del Sistema de Automatización de Publicaciones en LinkedIn.pdf",
+      categoria: "IA",
+    },
     
   ];
