@@ -1,6 +1,13 @@
 const proyectos = [
 
   {
+      titulo: "Sistema inteligente de consulta de clientes y gestión de citas(RAG)",
+      descripcion: "Creación de un flujo de sistema RAG,usando N8N,OpenAI,PostgreSQL(pgvector),Google drive...",
+      imagen: "/images/Rag.png",
+      enlace: "/Documentación_Técnica._RAG.pdf",
+      categoria: "IA",
+    },
+  {
       titulo: "Automatización gastos Personal",
       descripcion: "Creación de un flujo de automatización de gastos, usando N8N,Ollama,google sheets...",
       imagen: "/images/workflow_gastos.png",
