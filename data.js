@@ -1,6 +1,13 @@
 const proyectos = [
 
   {
+      titulo: "Sistema inteligente de solicitud de vacaciones",
+      descripcion: "Creación de un flujo de sistema,usando N8N,Webhooks,PostgreSQL,Gmail,Discord...",
+      imagen: "/images/vacaciones.png",
+      enlace: "/Documentacion_vacaciones.pdf",
+      categoria: "IA",
+    },
+  {
       titulo: "Sistema inteligente de consulta de clientes y gestión de citas(RAG)",
       descripcion: "Creación de un flujo de sistema RAG,usando N8N,OpenAI,PostgreSQL(pgvector),Google drive...",
       imagen: "/images/Rag.png",
