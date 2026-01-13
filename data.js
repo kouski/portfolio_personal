@@ -8,6 +8,13 @@ const proyectos = [
       categoria: "IA",
     },
   {
+      titulo: "Documentación del Sistema de Automatización con Model Context Protocol (MCP)",
+      descripcion: "Creación de un flujo de sistema MCP,usando N8N,OpenAI,Agente IA,Clientes MCP...",
+      imagen: "/images/MCP.png",
+      enlace: "/Documentacion_MCP.pdf",
+      categoria: "IA",
+    },
+  {
       titulo: "Automatización gastos Personal",
       descripcion: "Creación de un flujo de automatización de gastos, usando N8N,Ollama,google sheets...",
       imagen: "/images/workflow_gastos.png",
