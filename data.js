@@ -1,6 +1,14 @@
 const proyectos = [
 
   {
+      titulo: "Vibecoding web inmobiliaria",
+      descripcion: "Creación de una web completa con IA, usando Stitch para diseño y Antigravity para frontend y backend, usando NextJS. Incluido panel de administración y login",
+
+      imagen: "/images/vibecoding_web.png",
+      enlace: "https://vibecoding-inmobiliaria.vercel.app/es",
+      categoria: "IA",
+    },
+  {
       titulo: "Sistema inteligente de solicitud de vacaciones",
       descripcion: "Creación de un flujo de sistema, usando N8N, Webhooks, PostgreSQL, Gmail, Discord...",
 
