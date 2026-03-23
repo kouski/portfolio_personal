@@ -32,8 +32,13 @@ document.addEventListener("DOMContentLoaded", function () {
         renderizarProyectos(filtro);
   
         // Cambiar estilos de los botones
-        botonesFiltro.forEach((b) => b.classList.remove("btn-primary"));
-        this.classList.add("btn-primary");
+        botonesFiltro.forEach((b) => {
+  b.classList.remove("btn-danger");
+  b.classList.add("btn-secondary");
+});
+
+this.classList.remove("btn-secondary");
+this.classList.add("btn-danger");
       });
     });
   
